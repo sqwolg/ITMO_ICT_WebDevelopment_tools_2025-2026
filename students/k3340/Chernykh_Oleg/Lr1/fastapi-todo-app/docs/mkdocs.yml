@@ -1,0 +1,23 @@
+site_name: FastAPI Todo App
+site_description: Документация лабораторной работы по FastAPI, JWT и Tortoise ORM
+site_author: Олег Черных, K3340, 2026
+
+nav:
+  - Главная: index.md
+  - API: api.md
+  - Модели и база данных: database.md
+  - Запуск: run.md
+
+theme:
+  name: material
+  language: ru
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

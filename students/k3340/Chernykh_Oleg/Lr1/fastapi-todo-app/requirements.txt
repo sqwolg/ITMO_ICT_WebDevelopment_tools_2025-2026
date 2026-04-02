@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn
+tortoise-orm
+bcrypt
+python-dotenv
+python-jose
+python-multipart
