@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "todo-app"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Zakharchuk <mystang.pro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+pydantic = "^2.11.5"
+uvicorn = "^0.34.2"
+tortoise-orm = {extras = ["asyncpg"], version = "^0.25.0"}
+bcrypt = "^4.3.0"
+python-jose = "^3.4.0"
+python-multipart = "^0.0.20"
+pydantic-settings = "^2.9.1"
+aiohttp = "^3.11.18"
+aerich = "^0.9.0"
+celery = "^5.5.2"
+requests = "^2.32.3"
+redis = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+todo_app = "todo_app.main:main"
+
+[tool.aerich]
+tortoise_orm = "todo_app.settings.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
