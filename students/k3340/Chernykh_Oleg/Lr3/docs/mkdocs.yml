@@ -1,11 +1,12 @@
-site_name: Лабораторная работа 2
-site_description: Документация по параллельным вычислениям и параллельному парсингу на Python
+site_name: Лабораторная работа 3
+site_description: Документация по контейнеризации FastAPI-приложения, парсера и фоновых задач
 site_author: Олег Черных, K3340, 2026
 
 nav:
   - Главная: index.md
-  - Задание 1: task1.md
-  - Задание 2: task2.md
+  - Архитектура: architecture.md
+  - Docker Compose: docker-compose.md
+  - API и очередь: api-and-celery.md
 
 theme:
   name: material

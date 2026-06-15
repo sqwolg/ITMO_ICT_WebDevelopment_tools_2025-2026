@@ -2,7 +2,7 @@
 name = "todo-app"
 version = "0.1.0"
 description = ""
-authors = ["Alexander Zakharchuk <mystang.pro@gmail.com>"]
+authors = ["Олег Черных"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
