@@ -1,0 +1,22 @@
+site_name: Лабораторная работа 2
+site_description: Документация по параллельным вычислениям и параллельному парсингу на Python
+site_author: Олег Черных, K3340, 2026
+
+nav:
+  - Главная: index.md
+  - Задание 1: task1.md
+  - Задание 2: task2.md
+
+theme:
+  name: material
+  language: ru
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

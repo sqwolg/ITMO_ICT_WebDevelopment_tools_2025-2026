@@ -1,0 +1,23 @@
+site_name: Лабораторная работа 3
+site_description: Документация по контейнеризации FastAPI-приложения, парсера и фоновых задач
+site_author: Олег Черных, K3340, 2026
+
+nav:
+  - Главная: index.md
+  - Архитектура: architecture.md
+  - Docker Compose: docker-compose.md
+  - API и очередь: api-and-celery.md
+
+theme:
+  name: material
+  language: ru
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
